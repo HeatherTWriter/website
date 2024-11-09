@@ -50,7 +50,7 @@ To create and apply a ConfigMap with an empty configuration block, you can use k
     EOF
     ```
 
-2. Apply the empty ConfigMap, using the following command:
+1. Apply the empty ConfigMap, using the following command:
 
     ```shell
     kubectl apply -f example-redis-config.yaml
@@ -62,13 +62,12 @@ To create and apply a ConfigMap with an empty configuration block, you can use k
     kubectl apply -f https://raw.githubusercontent.com/kubernetes/website/main/content/en/examples/pods/config/redis-pod.yaml
     ```
 
-    <details>
-      <summary>View the example Redis pod manifest</summary>
+    {{< details summary="View the example Redis pod manifest" >}}
 
     {{% code_sample file="pods/config/redis-pod.yaml" %}}
 
-    </details>
-   
+    {{< /details >}}
+
    Examine the contents of the example Redis pod manifest and note the following:
 
     * A volume named `config` is created by `spec.volumes[1]`.
