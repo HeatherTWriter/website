@@ -22,10 +22,14 @@ In this tutorial, you'll learn how to do the following tasks:
 
 ## Requirements
 
-{{< include "task-tutorial-prereqs.md" >}} {{< version-check >}}
+{{< include "task-tutorial-prereqs.md" >}}
 
-* The example shown on this page works with `kubectl` 1.14 and above.
-* Understand [Configure a Pod to Use a ConfigMap](/docs/tasks/configure-pod-container/configure-pod-configmap/).
+* You are using `kubectl` 1.14 and above.
+  <details>
+   <summary>Check `kubectl` version</summary>
+   {{< version-check >}}
+  </details>
+* You've [configured a Pod to use a ConfigMap](/docs/tasks/configure-pod-container/configure-pod-configmap/).
 
 <!-- lessoncontent -->
 
